@@ -1,0 +1,189 @@
+/* Standard elements */
+
+html {
+  font-size: 1em;
+  -webkit-text-size-adjust: 1em;
+  -ms-text-size-adjust: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 100%;
+}
+
+/* Base elements */
+
+.TImageElement {
+  display: block;
+}
+
+.TDivElement {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.TButtonElement {
+  display: block;
+  border: 0;
+  font-size: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.TButtonElement:focus {
+  outline: none;
+}
+
+/* Custom elements */
+
+.TMainScreen {
+  background-color: #00773B;
+  background-image: -webkit-radial-gradient(at center, #084, #063);
+  background-image: radial-gradient(at center, #084, #063);
+  position: fixed;
+  width: 100%;
+  width: 100vw;
+  height: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.TMainScreen > h1 {
+  border-color: rgba(0,0,0,0.15);
+  border-width: 0.8rem;
+  border-style: solid;
+  border-radius: 1rem;
+  color: rgba(0,0,0,0.15);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  font-size: 6em;
+  padding: 0 0.3em;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.TTopButton {
+  border-color: rgba(0,0,0,0.15);
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 0.5em;
+  background-color: transparent;
+  color: #fff;
+  margin: 1em;
+  padding: 0.5em 1.8em;
+  font-size: 1.2em;
+  display: inline;
+}
+
+.TTopButton:hover {
+  border-color: #005B2E;
+  background-color: #4d9470;
+}
+
+.TTopButton:active {
+  border-color: #fff;
+  background-color: #4d9470;
+}
+
+.TCardTargetCanvas {
+  width: 3em;
+  height: 3em;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.TCardTarget {
+  border-color: rgba(0,0,0,0.15);
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 0.5em;
+  height: 8em;
+  width: 6em;
+  position: fixed;
+}
+
+.TCard {
+  background-color: #fff;
+  border-radius: 0.3em;
+  height: 8em;
+  width: 6em;
+  position: fixed;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.TConfetti {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  width: 100vw;
+  height: 100%;
+  height: 100vh;
+}
+
+.TModalButton {
+  border-color: rgba(0,0,0,0.15);
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 0.5em;
+  background-color: transparent;
+  color: #000;
+  margin: 1em;
+  padding: 0.5em 2em;
+  font-size: 1.2em;
+  display: inline;
+}
+
+.TModalButton:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.TModalButton:active {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.TModalContent {
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.TModalDialog {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  width: 100vw;
+  height: 100%;
+  height: 100vh;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}

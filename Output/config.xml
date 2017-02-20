@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="de.pcjv.cards" name="Cards" version="1.0.3" android-versionCode="10016" ios-CFBundleVersion="10016" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Cards</name>
+  <description/>
+  <author href="www.pcjv.de">Christian-W. Budde</author>
+  <content src="index.html"/>
+  <plugin name="cordova-plugin-whitelist" version="1"/>
+  <access origin="*"/>
+  <allow-intent href="localhost://*/*"/>
+  <allow-navigation href="*"/>
+  <icon width="512" height="512" src="www/Icons/Icon-512x512.png"/>
+  <icon width="256" height="256" src="www/Icons/Icon-256x256.png"/>
+  <icon width="228" height="228" src="www/Icons/Icon-228x228.png"/>
+  <icon width="192" height="192" src="www/Icons/Icon-192x192.png"/>
+  <icon width="180" height="180" src="www/Icons/Icon-180x180.png"/>
+  <icon width="152" height="152" src="www/Icons/Icon-152x152.png"/>
+  <icon width="144" height="144" src="www/Icons/Icon-144x144.png"/>
+  <icon width="128" height="128" src="www/Icons/Icon-128x128.png"/>
+  <icon width="120" height="120" src="www/Icons/Icon-120x120.png"/>
+  <icon width="114" height="114" src="www/Icons/Icon-114x114.png"/>
+  <icon width="100" height="100" src="www/Icons/Icon-100x100.png"/>
+  <icon width="99" height="99" src="www/Icons/Icon-99x99.png"/>
+  <icon width="96" height="96" src="www/Icons/Icon-96x96.png"/>
+  <icon width="94" height="94" src="www/Icons/Icon-94x94.png"/>
+  <icon width="80" height="80" src="www/Icons/Icon-80x80.png"/>
+  <icon width="76" height="76" src="www/Icons/Icon-76x76.png"/>
+  <icon width="72" height="72" src="www/Icons/Icon-72x72.png"/>
+  <icon width="64" height="64" src="www/Icons/Icon-64x64.png"/>
+  <icon width="60" height="60" src="www/Icons/Icon-60x60.png"/>
+  <icon width="57" height="57" src="www/Icons/Icon-57x57.png"/>
+  <icon width="50" height="50" src="www/Icons/Icon-50x50.png"/>
+  <icon width="48" height="48" src="www/Icons/Icon-48x48.png"/>
+  <icon width="40" height="40" src="www/Icons/Icon-40x40.png"/>
+  <icon width="32" height="32" src="www/Icons/Icon-36x36.png"/>
+  <icon width="32" height="32" src="www/Icons/Icon-32x32.png"/>
+  <icon width="29" height="29" src="www/Icons/Icon-29x29.png"/>
+  <icon width="24" height="24" src="www/Icons/Icon-24x24.png"/>
+  <icon width="16" height="16" src="www/Icons/Icon-16x16.png"/>
+  <platform name="android">
+    <allow-intent href="market:*"/>
+    <preference name="android-minSdkVersion" value="16"/>
+    <preference name="android-targetSdkVersion" value="23"/>
+    <preference name="Fullscreen" value="true"/>
+    <preference name="LogLevel" value="ERROR"/>
+    <preference name="KeepRunning" value="false"/>
+    <preference name="AndroidLaunchMode" value="singleInstance"/>
+    <preference name="DefaultVolumeStream" value="media"/>
+    <icon density="ldpi" src="www/Icons/Icon-36x36.png"/>
+    <icon density="mdpi" src="www/Icons/Icon-48x48.png"/>
+    <icon density="hdpi" src="www/Icons/Icon-72x72.png"/>
+    <icon density="xhdpi" src="www/Icons/Icon-96x96.png"/>
+    <icon density="xxhdpi" src="www/Icons/Icon-144x144.png"/>
+    <icon density="xxxhdpi" src="www/Icons/Icon-192x192.png"/>
+    <splash density="land-ldpi" src="Splash/Splash-320x200.png"/>
+    <splash density="land-mdpi" src="Splash/Splash-480x320.png"/>
+    <splash density="land-hdpi" src="Splash/Splash-800x480.png"/>
+    <splash density="land-xhdpi" src="Splash/Splash-1280x720.png"/>
+    <splash density="port-ldpi" src="Splash/Splash-200x320.png"/>
+    <splash density="port-mdpi" src="Splash/Splash-320x480.png"/>
+    <splash density="port-hdpi" src="Splash/Splash-480x800.png"/>
+    <splash density="port-xhdpi" src="Splash/Splash-720x1280.png"/>
+  </platform>
+  <platform name="ios">
+    <icon width="180" height="180" src="www/Icons/Icon-180x180.png"/>
+    <icon width="167" height="167" src="www/Icons/Icon-167x167.png"/>
+    <icon width="152" height="152" src="www/Icons/Icon-152x152.png"/>
+    <icon width="144" height="144" src="www/Icons/Icon-144x144.png"/>
+    <icon width="120" height="120" src="www/Icons/Icon-120x120.png"/>
+    <icon width="114" height="114" src="www/Icons/Icon-114x114.png"/>
+    <icon width="100" height="100" src="www/Icons/Icon-100x100.png"/>
+    <icon width="87" height="87" src="www/Icons/Icon-87x87.png"/>
+    <icon width="80" height="80" src="www/Icons/Icon-80x80.png"/>
+    <icon width="76" height="76" src="www/Icons/Icon-76x76.png"/>
+    <icon width="72" height="72" src="www/Icons/Icon-72x72.png"/>
+    <icon width="58" height="58" src="www/Icons/Icon-58x58.png"/>
+    <icon width="57" height="57" src="www/Icons/Icon-57x57.png"/>
+    <icon width="50" height="50" src="www/Icons/Icon-50x50.png"/>
+    <icon width="40" height="40" src="www/Icons/Icon-40x40.png"/>
+    <icon width="29" height="29" src="www/Icons/Icon-29x29.png"/>
+    <preference name="EnableViewportScale" value="true"/>
+    <preference name="SuppressesIncrementalRendering" value="true"/>
+    <preference name="BackupWebStorage" value="none"/>
+    <splash width="320" height="480" src="Splash/Splash-320x480.png"/>
+    <splash width="640" height="960" src="Splash/Splash-640x960.png"/>
+    <splash width="640" height="1136" src="Splash/Splash-640x1136.png"/>
+    <splash width="750" height="1334" src="Splash/Splash-750x1334.png"/>
+    <splash width="768" height="1024" src="Splash/Splash-768x1024.png"/>
+    <splash width="1024" height="768" src="Splash/Splash-1024x768.png"/>
+    <splash width="1242" height="2208" src="Splash/Splash-1242x2208.png"/>
+    <splash width="1536" height="2048" src="Splash/Splash-1536x2048.png"/>
+    <splash width="2048" height="1536" src="Splash/Splash-2048x1536.png"/>
+    <splash width="2048" height="2732" src="Splash/Splash-2048x2732.png"/>
+    <splash width="2208" height="1242" src="Splash/Splash-2208x1242.png"/>
+    <splash width="2732" height="2048" src="Splash/Splash-2732x2048.png"/>
+  </platform>
+  <preference name="permissions" value="none"/>
+  <preference name="Fullscreen" value="true"/>
+  <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+  <preference name="xwalkVersion" value="22+"/>
+  <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect"/>
+  <preference name="xwalkMode" value="embedded"/>
+  <preference name="xwalkMultipleApk" value="true"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <engine name="android" spec="~5.2.2"/>
+</widget>
