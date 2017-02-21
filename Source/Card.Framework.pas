@@ -176,7 +176,7 @@ var
 implementation
 
 uses
-  ECMA.Console, W3C.CSSOM, Cordova.StatusBar;
+  WHATWG.Console, W3C.CSSOM, Cordova.StatusBar;
 
 { TVector2i }
 

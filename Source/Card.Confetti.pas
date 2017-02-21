@@ -3,7 +3,7 @@ unit Card.Confetti;
 interface
 
 uses
-  W3C.HighResolutionTime, Cards.Framework;
+  W3C.HighResolutionTime, Card.Framework;
 
 type
   TConfetti = class;
