@@ -1,20 +1,20 @@
 {
 	"Project" : {
 		"Name" : "Cards",
-		"Description" : "",
+		"Description" : "Solitaire Card Game",
 		"Author" : {
 			"Name" : "Christian-W. Budde",
-			"Email" : "",
+			"Email" : "Christian@pcjv.de",
 			"Website" : "https:\/\/www.pcjv.de\/"
 		},
 		"Keywords" : [
 			"Card",
-			" Game",
-			" Solitaire"
+			"Game",
+			"Solitaire"
 		]
 	},
 	"Version" : {
-		"Major" : 0,
+		"Major" : 1,
 		"Minor" : 0,
 		"Release" : 0,
 		"Build" : 0

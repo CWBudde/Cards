@@ -41,7 +41,7 @@ type
 implementation
 
 uses
-  ECMA.Console;
+  WHATWG.Console;
 
 { TCard }
 

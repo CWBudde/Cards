@@ -160,7 +160,7 @@ type
 implementation
 
 uses
-  ECMA.Console;
+  WHATWG.Console;
 
 procedure BezierCurveToContext(Context: JCanvasRenderingContext2D; Points: array of Float);
 begin

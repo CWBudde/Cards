@@ -54,7 +54,7 @@ type
 implementation
 
 uses
-  ECMA.Console, W3C.HTML5;
+  WHATWG.Console, W3C.HTML5;
 
 var GRequestAnimFrame: function(const AMethod: TFrameRequestCallback): Integer;
 var GCancelAnimFrame: procedure(Handle: Integer);

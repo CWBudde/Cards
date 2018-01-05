@@ -172,7 +172,7 @@ var
 implementation
 
 uses
-  ECMA.Date, ECMA.Console, W3C.Geometry, W3C.CSSOM, W3C.CSSOMView,
+  ECMA.Date, WHATWG.Console, W3C.Geometry, W3C.CSSOM, W3C.CSSOMView,
   W3C.UIEvents, W3C.TouchEvents, W3C.WebStorage;
 
 const
