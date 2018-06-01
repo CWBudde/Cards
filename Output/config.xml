@@ -105,5 +105,7 @@
   <preference name="permissions" value="none"/>
   <preference name="Fullscreen" value="true"/>
   <preference name="HideKeyboardFormAccessoryBar" value="true"/>
-  <plugin name="cordova-plugin-whitelist" version="1"/>
+  <plugin name="cordova-plugin-device" spec="^2.0.2"/>
+  <plugin name="cordova-plugin-statusbar" spec="^2.4.2"/>
+  <plugin name="cordova-plugin-whitelist" spec="^1.3.3"/>
 </widget>
