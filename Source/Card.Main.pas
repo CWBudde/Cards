@@ -2,7 +2,7 @@ unit Card.Main;
 
 interface
 
-{$DEFINE SOLVER}
+{-$DEFINE SOLVER}
 
 uses
   ECMA.TypedArray, W3C.DOM4, W3C.HTML5, W3C.WebAudio, Card.Framework,
