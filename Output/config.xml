@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="de.pcjv.cards" name="Cards" version="1.1.0" android-versionCode="10116" ios-CFBundleVersion="10116" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Cards</name>
-  <description/>
-  <author href="www.pcjv.de">Christian-W. Budde</author>
+  <name>Christian's Solitaire Game</name>
+  <description>This simple Solitaire clone was created in order to play one of my favorite solitaire games on any mobile device</description>
+  <author email="Christian@pcjv.de" href="https://www.pcjv.de">Christian-W. Budde</author>
   <content src="index.html"/>
   <access origin="*"/>
   <allow-intent href="localhost://*/*"/>
   <allow-navigation href="*"/>
-  <icon width="1024" height="1024" src="www/Icons/Icon-1024x1024.png"/>
   <icon width="512" height="512" src="www/Icons/Icon-512x512.png"/>
   <icon width="256" height="256" src="www/Icons/Icon-256x256.png"/>
   <icon width="228" height="228" src="www/Icons/Icon-228x228.png"/>
@@ -68,6 +67,7 @@
     <splash density="port-xhdpi" src="Splash/Splash-720x1280.png"/>
   </platform>
   <platform name="ios">
+    <icon width="1024" height="1024" src="www/Icons/Icon-1024x1024.png"/>
     <icon width="180" height="180" src="www/Icons/Icon-180x180.png"/>
     <icon width="167" height="167" src="www/Icons/Icon-167x167.png"/>
     <icon width="152" height="152" src="www/Icons/Icon-152x152.png"/>
