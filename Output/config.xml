@@ -87,6 +87,8 @@
     <preference name="EnableViewportScale" value="true"/>
     <preference name="SuppressesIncrementalRendering" value="true"/>
     <preference name="BackupWebStorage" value="none"/>
+    <preference name="StatusBarOverlaysWebView" value="true"/>
+    <preference name="StatusBarStyle" value="lightcontent"/>
     <splash width="320" height="480" src="Splash/Splash-320x480.png"/>
     <splash width="640" height="960" src="Splash/Splash-640x960.png"/>
     <splash width="640" height="1136" src="Splash/Splash-640x1136.png"/>
