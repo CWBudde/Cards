@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="de.pcjv.cards" name="Cards" version="1.0.3" android-versionCode="10016" ios-CFBundleVersion="10016" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="de.pcjv.cards" name="Cards" version="1.1.0" android-versionCode="10116" ios-CFBundleVersion="10116" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Cards</name>
   <description/>
   <author href="www.pcjv.de">Christian-W. Budde</author>
   <content src="index.html"/>
-  <plugin name="cordova-plugin-whitelist" version="1"/>
   <access origin="*"/>
   <allow-intent href="localhost://*/*"/>
   <allow-navigation href="*"/>
+  <icon width="1024" height="1024" src="www/Icons/Icon-1024x1024.png"/>
   <icon width="512" height="512" src="www/Icons/Icon-512x512.png"/>
   <icon width="256" height="256" src="www/Icons/Icon-256x256.png"/>
   <icon width="228" height="228" src="www/Icons/Icon-228x228.png"/>
@@ -38,6 +38,13 @@
   <icon width="16" height="16" src="www/Icons/Icon-16x16.png"/>
   <platform name="android">
     <allow-intent href="market:*"/>
+    <engine name="android" spec="~5.2.2"/>
+    <icon density="ldpi" src="www/Icons/Icon-36x36.png"/>
+    <icon density="mdpi" src="www/Icons/Icon-48x48.png"/>
+    <icon density="hdpi" src="www/Icons/Icon-72x72.png"/>
+    <icon density="xhdpi" src="www/Icons/Icon-96x96.png"/>
+    <icon density="xxhdpi" src="www/Icons/Icon-144x144.png"/>
+    <icon density="xxxhdpi" src="www/Icons/Icon-192x192.png"/>
     <preference name="android-minSdkVersion" value="16"/>
     <preference name="android-targetSdkVersion" value="23"/>
     <preference name="Fullscreen" value="true"/>
@@ -45,12 +52,11 @@
     <preference name="KeepRunning" value="false"/>
     <preference name="AndroidLaunchMode" value="singleInstance"/>
     <preference name="DefaultVolumeStream" value="media"/>
-    <icon density="ldpi" src="www/Icons/Icon-36x36.png"/>
-    <icon density="mdpi" src="www/Icons/Icon-48x48.png"/>
-    <icon density="hdpi" src="www/Icons/Icon-72x72.png"/>
-    <icon density="xhdpi" src="www/Icons/Icon-96x96.png"/>
-    <icon density="xxhdpi" src="www/Icons/Icon-144x144.png"/>
-    <icon density="xxxhdpi" src="www/Icons/Icon-192x192.png"/>
+    <preference name="xwalkVersion" value="22+"/>
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect"/>
+    <preference name="xwalkMode" value="embedded"/>
+    <preference name="xwalkMultipleApk" value="true"/>
+    <preference name="android-minSdkVersion" value="16"/>
     <splash density="land-ldpi" src="Splash/Splash-320x200.png"/>
     <splash density="land-mdpi" src="Splash/Splash-480x320.png"/>
     <splash density="land-hdpi" src="Splash/Splash-800x480.png"/>
@@ -96,10 +102,5 @@
   <preference name="permissions" value="none"/>
   <preference name="Fullscreen" value="true"/>
   <preference name="HideKeyboardFormAccessoryBar" value="true"/>
-  <preference name="xwalkVersion" value="22+"/>
-  <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect"/>
-  <preference name="xwalkMode" value="embedded"/>
-  <preference name="xwalkMultipleApk" value="true"/>
-  <preference name="android-minSdkVersion" value="16"/>
-  <engine name="android" spec="~5.2.2"/>
+  <plugin name="cordova-plugin-whitelist" version="1"/>
 </widget>
