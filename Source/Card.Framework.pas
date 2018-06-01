@@ -176,7 +176,7 @@ var
 implementation
 
 uses
-  WHATWG.Console, W3C.CSSOM, Cordova.StatusBar, Cordova.Device;
+  WHATWG.Console, W3C.CSSOM, Cordova.StatusBar;
 
 { TVector2i }
 
@@ -454,10 +454,11 @@ begin
   Document.addEventListener('pause', @Pause);
   Document.addEventListener('resume', @Resume);
 
-  // eventually try to hide status bar
-  if (Device.platform = 'iOS') then
-    if Assigned(StatusBar) then
-      StatusBar.hide;
+  {$IFDEF iOS}
+  // try to hide status bar
+  if Assigned(StatusBar) then
+    StatusBar.hide;
+  {$ENDIF}
 
   CordovaAvailable := True;
 end;

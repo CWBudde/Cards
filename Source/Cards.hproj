@@ -68,7 +68,6 @@
 		"Card.Framework.pas",
 		"Card.Main.pas",
 		"Cards.css",
-    "Cordova.Device",
     "Cordova.StatusBar"
 	]
 }
