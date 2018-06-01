@@ -35,6 +35,7 @@
   <icon width="32" height="32" src="www/Icons/Icon-32x32.png"/>
   <icon width="29" height="29" src="www/Icons/Icon-29x29.png"/>
   <icon width="24" height="24" src="www/Icons/Icon-24x24.png"/>
+  <icon width="20" height="20" src="www/Icons/Icon-20x20.png"/>
   <icon width="16" height="16" src="www/Icons/Icon-16x16.png"/>
   <platform name="android">
     <allow-intent href="market:*"/>
